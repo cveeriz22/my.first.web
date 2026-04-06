@@ -104,11 +104,10 @@
             <p><strong>Phone:</strong> +62-878-7273-4218</p>
           </div>
         </div> <class="contact-form-container"> 
-         <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-          <input type="hidden" name="access_key" value="67e36094-5f32-4373-991b-778e7e020c3a">
-          <label>Name<input type="text" placeholder="Your Name" required /> </label>
-          <label>Email<input type="email" placeholder="Your Email" required /> </label>
-          <label>Message<textarea placeholder="Tell us what you'd like" rows="4" required></textarea> </label>
+         <form action="connect.php" method="post" class="contact-form">
+          <label>Name<input type="text" placeholder="Your Name" name="name" /> </label>
+          <label>Email<input type="email" placeholder="Your Email" name="email" /> </label>
+          <label>Message<textarea placeholder="Tell us what you'd like" rows="4" name="message"></textarea> </label>
           <button type="submit" class="button button-primary">Send Message</button>       
          </form>
       </div>
